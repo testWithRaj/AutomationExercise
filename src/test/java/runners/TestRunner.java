@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "classpath:features",     // 📂 Feature file path
-    glue = {"stepDefinations"},                  // 📦 Step definition package
+    glue = {"stepDefinations","utils"},                  // 📦 Step definition package
     plugin = {"pretty", 
               "html:target/cucumber-reports/report.html", 
               "json:target/cucumber.json"},      // 📊 Reporting

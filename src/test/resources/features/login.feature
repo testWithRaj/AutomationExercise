@@ -12,6 +12,6 @@ Feature: Login Functionality on AutomationExercise
     Given user launches the browser
     When user is on home page
     And user clicks on login link
-    And user enters email "wrongemail@test.com" and password "wrongpassword"
+    And user enters email "rajk116629@gmail.com" and password "password123456"
     And user clicks on login button
     Then error message should be displayed
